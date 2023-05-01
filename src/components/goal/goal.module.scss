@@ -1,0 +1,58 @@
+.goal {
+  border: 2px solid #6673bb;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  border-radius: 12px;
+  margin: 0px 24px;
+  background-color: #fff;
+
+  div:first-child {
+    p {
+      color: #6673bb;
+      font-size: 12px;
+      padding-bottom: 6px;
+      margin: 0;
+    }
+  }
+
+  div:nth-child(2) {
+    p:first-child {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 3px;
+    }
+
+    p {
+      font-size: 16px;
+      margin: 0;
+      padding: 0;
+      font-size: 12px;
+    }
+
+    p:last-child {
+      color: #ff9665;
+    }
+  }
+  .progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(#ff9665 75%, pink 0);
+  }
+
+  .progress::before {
+    content: "70%";
+  }
+
+  progress {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+}

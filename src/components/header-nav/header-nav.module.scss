@@ -1,0 +1,28 @@
+.headerNav {
+  padding: 24px;
+  padding-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+
+  .arrow {
+    border: 1px solid #6673bb;
+    border-radius: 4px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 20px;
+    min-height: 20px;
+    cursor: pointer;
+
+    svg {
+      color: #6673bb;
+    }
+  }
+}

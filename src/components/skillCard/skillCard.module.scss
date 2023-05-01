@@ -1,0 +1,56 @@
+.skill_card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+
+  .icon_container {
+    border-radius: 50%;
+    min-width: 50px;
+    min-height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6673bb;
+    margin-bottom: 1.25rem;
+
+    svg {
+      font-size: 1.5rem;
+      color: #ffffff;
+    }
+  }
+
+  .title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .percent {
+    color: #a4abb2;
+    margin: 0.5rem 0 1.25rem;
+  }
+}
+
+.btn_primary,
+.btn_primary_outline {
+  border: 1px solid #ff9665;
+  border-radius: 20px !important;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.35rem 1.2rem;
+}
+
+.btn_primary {
+  color: #ffffff;
+  background-color: #ff9665;
+}
+
+.btn_primary_outline {
+  color: #ff9665;
+}

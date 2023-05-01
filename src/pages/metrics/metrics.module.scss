@@ -1,0 +1,81 @@
+.skill_page_container {
+  padding: 1.5rem;
+}
+
+.main_title_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+
+  .title {
+    font-weight: 600;
+  }
+
+  .arrow {
+    border: 1px solid #6673bb;
+    border-radius: 4px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 20px;
+    min-height: 20px;
+    cursor: pointer;
+
+    svg {
+      color: #6673bb;
+    }
+  }
+}
+
+.calendar_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+
+  .day_container {
+    font-weight: 500;
+
+    .date_holder {
+      min-width: 35px;
+      min-height: 35px;
+      border-radius: 50%;
+      font-size: 0.75rem;
+      background-color: #ffffff;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      color: #6673bb;
+    }
+
+    .day {
+      font-size: 0.75rem;
+      margin-top: 0.5rem;
+    }
+  }
+
+  .checked_day {
+    .date_holder {
+      background-color: #6673bb;
+      color: #ffffff;
+      font-size: 1rem;
+    }
+  }
+
+  .active_day {
+    .date_holder {
+      background-color: #ff9665;
+      color: #ffffff;
+    }
+
+    .day {
+      color: #ff9665;
+    }
+  }
+}
+
+.section_title {
+  margin-right: 0;
+  margin-left: -1.5rem;
+}

@@ -1,0 +1,33 @@
+.mobile_bar {
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 1.5rem 1.5rem 1rem;
+  z-index: 5;
+  border-radius: 50px 50px 0 0;
+
+  .bar_icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  svg {
+    color: #6e6e6e;
+    cursor: pointer;
+  }
+}
+
+.active_nav {
+  svg {
+    color: #6673bb !important;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .mobile_bar {
+    width: 576px !important;
+  }
+}
